@@ -14,7 +14,7 @@
   --color-orange: #feb546;
   --color-black: #000000;
   /* Font size */
-  --font-larg: 48px;
+  --font-large: 48px;
   --font-meidum: 28px;
   --font-regular: 18px;
   --font-small: 16px;
@@ -28,4 +28,33 @@
 /* Universal Tags */
 * {
   box-sizing: border-box;
+}
+
+/* Typography */
+h1 {
+  font-size: var(--font-large);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-black);
+  margin: 16px 0;
+}
+
+h2 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-semi-bold);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 8px 0;
+}
+
+p {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-regular);
+  color: var(--color-black);
+  margin: 4px 0; 
 }
