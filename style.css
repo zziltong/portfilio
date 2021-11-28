@@ -108,6 +108,10 @@ p {
   padding: 8px;
 }
 
+#navbar.navbar--opacity {
+  opacity: 50%;
+}
+
 .navbar__menu {
   display: flex;
 
